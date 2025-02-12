@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Tests</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .btn { padding: 10px 20px; background: blue; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h3>Mock Tests</h3>
+    <button class="btn" onclick="startMockTest()">Start Full Mock Test</button><br><br>
+    <a href="bulk-upload.html">Go to Bulk Upload</a>
+    <script>
+        function startMockTest() {
+            alert("Starting Full Mock Test");
+        }
+    </script>
+</body>
+</html>
